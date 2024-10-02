@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #413bef;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  #sketch-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+  }
+  
+  @media (max-height: 400px) {
+
+      h1{
+        display: none;
+      }
+
+      #sketch-container {
+        height: 200px;
+        width: 650px;
+        text-align: center;
+        padding: 30px;
+      }
+  }
+
+  @media (max-width: 370px) {
+    
+    h1{
+      display: none;
+    }
+
+}
